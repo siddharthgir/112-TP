@@ -1,5 +1,7 @@
 # 112-TP
 
+Video: https://www.youtube.com/watch?v=_DVdOJGO8Nw
+
 This is the code for a robot that plays the game "hole in a wall", inspired from a game show of the same name that is normally done with humans. The main feature is the ability of the robots arms to copy the position of a humans arms. It requires a humanoid robot controlled with an arduino mounted on a roomba robot as the base to make it move.
 
 To run the project, the user needs to run the files "inverseKinematics.py" and "roomba.py" together in visual studio running 32 bit python. Then the user needs to start the file "robot.pde" in processing to communicate with the robot. The arduino needs to have the standardFirmata code from the arduino examples directory loaded onto to it. The roomba file will also open a GUI to communicate with the robot once it has established connection with the roomba. Make sure the code for "roomba.py" and "robot.pde" have the appropiate com port in the code. After this, turn the power on for the robot humanoid and it should be able to move.
